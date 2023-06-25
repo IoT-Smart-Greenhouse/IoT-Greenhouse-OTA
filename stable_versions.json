@@ -1,5 +1,8 @@
 {
     "greenhouseFrontendVersion": "1.0.1",
+    "greenhouseFrontendUiFileListURL": "https://raw.githubusercontent.com/pkerspe/IoT-Greenhouse-Updates/main/greenhouse_frontend_files.json",
     "greenhouseESPFirmwareVersion": "1.0.1",
-    "greenhouseArduinoFirmwareVersion": "1.0.1"
+    "greenhouseESPFirmwareFileURL": "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/esp32/firmware.bin",
+    "greenhouseArduinoFirmwareVersion": "1.0.1",
+    "greenhouseArduinoFirmwareFileURL": "https://raw.githubusercontent.com/pkerspe/IoT-Greenhouse-Updates/main/arduino/firmware.hex"
 }
