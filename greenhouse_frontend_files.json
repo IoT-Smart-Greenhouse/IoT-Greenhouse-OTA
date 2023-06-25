@@ -1,0 +1,8 @@
+{
+    "files": [
+        "https://raw.githubusercontent.com/pkerspe/IoT-Greenhouse-Updates/main/frontend/index.html",
+        "https://raw.githubusercontent.com/pkerspe/IoT-Greenhouse-Updates/main/frontend/favicon.ico",
+        "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/frontend/_nuxt/entry.gz.js",
+        "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/frontend/_nuxt/entry.gz.css"
+    ]
+}
