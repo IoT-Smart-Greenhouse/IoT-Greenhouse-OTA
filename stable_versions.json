@@ -20,7 +20,7 @@
             "fileUrl": "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/frontend/_nuxt/entry.gz.css",
             "targetPath": "www/_nuxt/entry.gz.css",
             "md5": "201eb0370cafac3be1b6508135c4cf5c"
-        },
+        }
     ],
     "greenhouseESPFirmwareVersion": "0.1.0",
     "greenhouseESPFirmwareFileURL": "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/esp32/firmware.bin",
