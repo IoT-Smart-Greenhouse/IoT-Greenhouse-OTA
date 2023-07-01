@@ -1,29 +1,29 @@
 {
-    "greenhouseFrontendVersion": "0.1.1",
-    "greenhouseFrontendUiFileList": [
-        {
-            "fileUrl": "https://raw.githubusercontent.com/pkerspe/IoT-Greenhouse-Updates/main/frontend/index.html",
-            "targetPath": "www/index.html",
-            "md5": "911626d156cf577e4c298d0e6f8003bc"
-        },
-        {
-            "fileUrl": "https://raw.githubusercontent.com/pkerspe/IoT-Greenhouse-Updates/main/frontend/favicon.ico",
-            "targetPath": "www/favicon.ico",
-            "md5": "09c65fc704455930a748da8fb3484a38"
-        },
-        {
-            "fileUrl": "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/frontend/_nuxt/entry.gz.js",
-            "targetPath": "www/_nuxt/entry.gz.js",
-            "md5": "a4afc55f30ab59d5a41149725864eec9"
-        },
-        {
-            "fileUrl": "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/frontend/_nuxt/entry.gz.css",
-            "targetPath": "www/_nuxt/entry.gz.css",
-            "md5": "201eb0370cafac3be1b6508135c4cf5c"
-        }
-    ],
-    "greenhouseESPFirmwareVersion": "0.1.0",
-    "greenhouseESPFirmwareFileURL": "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/esp32/firmware.bin",
-    "greenhouseArduinoFirmwareVersion": "0.1.0",
-    "greenhouseArduinoFirmwareFileURL": "https://raw.githubusercontent.com/pkerspe/IoT-Greenhouse-Updates/main/arduino/firmware.hex"
+  "greenhouseFrontendVersion": "0.3.0",
+  "greenhouseFrontendUiFileList": [
+    {
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/frontend/_nuxt/entry.gz.css",
+      "targetPath": "www/_nuxt/entry.gz.css",
+      "md5": "9ac7091da2df66ea6d1348a3164fa128"
+    },
+    {
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/frontend/_nuxt/entry.gz.js",
+      "targetPath": "www/_nuxt/entry.gz.js",
+      "md5": "6d7f76cfd5f03efdd817af0742c5129a"
+    },
+    {
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/frontend/favicon.ico",
+      "targetPath": "www/favicon.ico",
+      "md5": "09c65fc704455930a748da8fb3484a38"
+    },
+    {
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/frontend/index.html",
+      "targetPath": "www/index.html",
+      "md5": "300a77c628f1b457cb5c78c04832edb7"
+    }
+  ],
+  "greenhouseESPFirmwareVersion": "0.1.0",
+  "greenhouseESPFirmwareFileURL": "https://github.com/pkerspe/IoT-Greenhouse-Updates/raw/main/esp32/firmware.bin",
+  "greenhouseArduinoFirmwareVersion": "0.1.0",
+  "greenhouseArduinoFirmwareFileURL": "https://raw.githubusercontent.com/pkerspe/IoT-Greenhouse-Updates/main/arduino/firmware.hex"
 }
