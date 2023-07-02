@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 function replaceVersionNumberAndFiles(filename, newVersion) {
     try {
         const fileContents = fs.readFileSync(filename, 'utf8');
