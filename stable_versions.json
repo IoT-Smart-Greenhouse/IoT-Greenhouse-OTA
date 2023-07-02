@@ -22,7 +22,7 @@
       "md5": "52dcdd85ea04c75fdc8ac60d9056e520"
     }
   ],
-  "greenhouseESPFirmwareVersion": "0.1.10",
+  "greenhouseESPFirmwareVersion": "0.1.11",
   "greenhouseESPFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/esp32/firmware.bin",
   "greenhouseArduinoFirmwareVersion": "0.1.0",
   "greenhouseArduinoFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/arduino/firmware.hex"
