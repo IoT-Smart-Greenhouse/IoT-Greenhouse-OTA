@@ -1,5 +1,5 @@
 {
-  "greenhouseFrontendVersion": "0.3.3",
+  "greenhouseFrontendVersion": "0.3.4",
   "greenhouseFrontendUiFileList": [
     {
       "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/frontend/_nuxt/entry.gz.css",
@@ -19,10 +19,10 @@
     {
       "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/frontend/index.html",
       "targetPath": "www/index.html",
-      "md5": "336e4fd1f97436530c0602842f934d60"
+      "md5": "f59a2e98def2829ffa94cb46e006de91"
     }
   ],
-  "greenhouseESPFirmwareVersion": "0.2.0",
+  "greenhouseESPFirmwareVersion": "0.2.1",
   "greenhouseESPFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/esp32/firmware.bin",
   "greenhouseArduinoFirmwareVersion": "0.1.0",
   "greenhouseArduinoFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/arduino/firmware.hex"
