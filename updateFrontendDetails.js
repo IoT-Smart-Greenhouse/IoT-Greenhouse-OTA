@@ -51,7 +51,12 @@ function listFilesWithMD5Hashes(folderPath) {
             const fileStat = fs.statSync(filePath);
             if (fileStat.isFile()) {
                 const hash = calculateMD5Hash(filePath);
-                filesWithHashes.push({ fileUrl: 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/' + filePath, targetPath: filePath.replace("frontend/", "www/"), md5: hash });
+                filesWithHashes.push({ 
+                    fileUrl: 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/' + filePath, 
+                    targetPath: filePath.replace("frontend/", "www/"), 
+                    md5: hash,
+                    size: fileStat.size
+                });
             } else if (fileStat.isDirectory()) {
                 traverseFolder(filePath);
             }
