@@ -6,7 +6,7 @@ function replaceVersionNumberAndFiles(filename, newVersion, tagName) {
         const jsonData = JSON.parse(fileContents);
 
         jsonData['greenhouseESPFirmwareVersion'] = newVersion;
-        jsonData['greenhouseESPFirmwareVersion'] = 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/' + tagName + '/esp32/firmware.bin';
+        jsonData['greenhouseESPFirmwareFileURL'] = 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/' + tagName + '/esp32/firmware.bin';
 
         const updatedContents = JSON.stringify(jsonData, null, 2);
         fs.writeFileSync(filename, updatedContents);
