@@ -42,7 +42,7 @@ function calculateMD5Hash(filepath) {
     return hash.digest('hex');
 }
 
-function listFilesWithMD5Hashes(folderPath) {
+function listFilesWithMD5Hashes(folderPath, verTag) {
     const filesWithHashes = [];
     function traverseFolder(currentPath) {
         const files = fs.readdirSync(currentPath);
@@ -52,7 +52,7 @@ function listFilesWithMD5Hashes(folderPath) {
             if (fileStat.isFile()) {
                 const hash = calculateMD5Hash(filePath);
                 filesWithHashes.push({ 
-                    fileUrl: 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/main/' + filePath, 
+                    fileUrl: 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/'+ verTag + '/' + filePath, 
                     targetPath: filePath.replace("frontend/", "www/"), 
                     md5: hash,
                     size: fileStat.size
@@ -69,8 +69,11 @@ function listFilesWithMD5Hashes(folderPath) {
 const filenameToExtractVersionNumber = 'frontend/index.html';
 const jsonVersionsFile = 'stable_versions.json';
 const versionNumber = extractVersionNumber(filenameToExtractVersionNumber);
-
-const filesWithHashes = listFilesWithMD5Hashes('frontend');
-console.log("Generated MD5 hashes for " + filesWithHashes.length + " frontend files");
-
-replaceVersionNumberAndFiles(jsonVersionsFile, versionNumber, filesWithHashes)
+const tagName = process.env.GIT_TAG_NAME;
+if(tagName){
+    const filesWithHashes = listFilesWithMD5Hashes('frontend', tagName);
+    console.log("Generated MD5 hashes for " + filesWithHashes.length + " frontend files");
+    replaceVersionNumberAndFiles(jsonVersionsFile, versionNumber, filesWithHashes)
+} else {
+    throw new Error("Missing environment variable GIT_TAG_NAME to provide git tag name to create file list for");
+}
