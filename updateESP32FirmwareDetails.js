@@ -1,4 +1,12 @@
 const fs = require('fs');
+const crypto = require('crypto');
+
+function calculateMD5Hash(filepath) {
+    const hash = crypto.createHash('md5');
+    const fileData = fs.readFileSync(filepath);
+    hash.update(fileData);
+    return hash.digest('hex');
+}
 
 function replaceVersionNumberAndFiles(filename, newVersion, tagName) {
     try {
@@ -7,6 +15,7 @@ function replaceVersionNumberAndFiles(filename, newVersion, tagName) {
 
         jsonData['greenhouseESPFirmwareVersion'] = newVersion;
         jsonData['greenhouseESPFirmwareFileURL'] = 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/' + tagName + '/esp32/firmware.bin';
+        jsonData['greenhouseESPFirmwareFileMd5'] = calculateMD5Hash('./esp32/firmware.bin');
 
         const updatedContents = JSON.stringify(jsonData, null, 2);
         fs.writeFileSync(filename, updatedContents);
