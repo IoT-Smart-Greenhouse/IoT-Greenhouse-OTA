@@ -2,25 +2,25 @@
   "greenhouseFrontendVersion": "0.4.4",
   "greenhouseFrontendUiFileList": [
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-v0.4.10/frontend/_nuxt/entry.gz.css",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-v0.4.11/frontend/_nuxt/entry.gz.css",
       "targetPath": "www/_nuxt/entry.gz.css",
       "md5": "8dc6a2e4665568b67e7e0eab5c41b6f4",
       "size": 53112
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-v0.4.10/frontend/_nuxt/entry.gz.js",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-v0.4.11/frontend/_nuxt/entry.gz.js",
       "targetPath": "www/_nuxt/entry.gz.js",
       "md5": "1e24f74f1083e2dca7b83671b9a57740",
       "size": 266777
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-v0.4.10/frontend/favicon.ico",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-v0.4.11/frontend/favicon.ico",
       "targetPath": "www/favicon.ico",
       "md5": "09c65fc704455930a748da8fb3484a38",
       "size": 10990
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-v0.4.10/frontend/index.html",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-v0.4.11/frontend/index.html",
       "targetPath": "www/index.html",
       "md5": "fa7d4340cd71df2e18a5d85484a4271d",
       "size": 701
