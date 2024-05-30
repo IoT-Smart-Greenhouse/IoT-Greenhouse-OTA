@@ -56,10 +56,10 @@
       "size": 1033
     }
   ],
-  "greenhouseESPFirmwareVersion": "0.8.1",
-  "greenhouseESPFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-v0.8.1/esp32/firmware.bin",
+  "greenhouseESPFirmwareVersion": "0.8.2",
+  "greenhouseESPFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-v0.8.2/esp32/firmware.bin",
   "greenhouseArduinoFirmwareVersion": "0.4.0",
   "greenhouseArduinoFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-v0.4.0/arduino/firmware.hex",
-  "greenhouseESPFirmwareFileMd5": "ce1d23cf37fbae757996bbd2757d92ac",
+  "greenhouseESPFirmwareFileMd5": "c47dafc4d1119b9bb66b408b986244ea",
   "greenhouseArduinoFirmwareFileMd5": "f019c87cad9d1b0ad45b4619628bfdec"
 }
