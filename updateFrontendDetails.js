@@ -67,7 +67,7 @@ function listFilesWithMD5Hashes(folderPath, verTag) {
 }
 
 const filenameToExtractVersionNumber = 'frontend/index.html';
-const jsonVersionsFile = 'stable_versions.json';
+const jsonVersionsFile = 'stable_versions_nextgen.json';
 const versionNumber = extractVersionNumber(filenameToExtractVersionNumber);
 const tagName = process.env.GIT_TAG_NAME;
 if(tagName){
