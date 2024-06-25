@@ -32,7 +32,7 @@ function readVersionNumberFromPackageJson(packageJsonPath) {
     return jsonData.version;
 }
 
-const jsonVersionsFile = 'stable_versions.json';
+const jsonVersionsFile = 'stable_versions_nextgen.json';
 const packageJsonPath = process.env.PACKAGE_JSON_PATH;
 const tagName = process.env.GIT_TAG_NAME;
 
