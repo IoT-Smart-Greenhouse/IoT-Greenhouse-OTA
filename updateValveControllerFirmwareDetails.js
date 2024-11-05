@@ -13,9 +13,9 @@ function replaceVersionNumberAndFiles(filename, newVersion, tagName) {
         const fileContents = fs.readFileSync(filename, 'utf8');
         const jsonData = JSON.parse(fileContents);
 
-        jsonData['greenhouseArduinoFirmwareVersion'] = newVersion;
-        jsonData['greenhouseArduinoFirmwareFileURL'] = 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/' + tagName + '/arduino/firmware.hex';
-        jsonData['greenhouseArduinoFirmwareFileMd5'] = calculateMD5Hash('./arduino/firmware.hex');
+        jsonData['greenhouseValveControllerFirmwareVersion'] = newVersion;
+        jsonData['greenhouseValveControllerFirmwareFileURL'] = 'https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/' + tagName + '/valve-controller/firmware.hex';
+        jsonData['greenhouseValveControllerFirmwareFileMd5'] = calculateMD5Hash('./valve-controller/firmware.hex');
 
         const updatedContents = JSON.stringify(jsonData, null, 2);
         fs.writeFileSync(filename, updatedContents);
