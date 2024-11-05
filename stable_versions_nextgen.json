@@ -1,69 +1,67 @@
 {
-  "greenhouseFrontendVersion": "0.7.15",
+  "greenhouseFrontendVersion": "0.7.16",
   "greenhouseFrontendUiFileList": [
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/_nuxt/CompCond.png",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/_nuxt/CompCond.png",
       "targetPath": "www/_nuxt/CompCond.png",
       "md5": "aaeb0eb7f2ad44c027c64a34d7c8c931",
       "size": 35209
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/_nuxt/Cond.png",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/_nuxt/Cond.png",
       "targetPath": "www/_nuxt/Cond.png",
       "md5": "0d31375cec59e4ca9cc2d27784555862",
       "size": 17570
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/_nuxt/RemTrigCond.png",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/_nuxt/RemTrigCond.png",
       "targetPath": "www/_nuxt/RemTrigCond.png",
       "md5": "42fc26111921fb9a738990c75c92688e",
       "size": 10847
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/_nuxt/TmCond.png",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/_nuxt/TmCond.png",
       "targetPath": "www/_nuxt/TmCond.png",
       "md5": "390cf314d2f0b538a2f34eae47d8c419",
       "size": 13197
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/_nuxt/TmWinCond.png",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/_nuxt/TmWinCond.png",
       "targetPath": "www/_nuxt/TmWinCond.png",
       "md5": "68619ee308e72a76e60df525df51e8de",
       "size": 11776
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/_nuxt/entry.gz.css",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/_nuxt/entry.gz.css",
       "targetPath": "www/_nuxt/entry.gz.css",
       "md5": "d92d194d4444130be68b9b05cbe91b83",
       "size": 63475
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/_nuxt/entry.gz.js",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/_nuxt/entry.gz.js",
       "targetPath": "www/_nuxt/entry.gz.js",
       "md5": "8a930c709ba3fa24f344735840a524ee",
       "size": 351940
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/favicon.ico",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/favicon.ico",
       "targetPath": "www/favicon.ico",
       "md5": "09c65fc704455930a748da8fb3484a38",
       "size": 10990
     },
     {
-      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.15/frontend/index.html",
+      "fileUrl": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/UI-NEXTGEN-v0.7.16/frontend/index.html",
       "targetPath": "www/index.html",
-      "md5": "925b4ff3fbba3cf7445bb95c36a9fac5",
+      "md5": "4fb5dc2eff45cb2d818311d55d8ae7b4",
       "size": 1075
     }
   ],
   "greenhouseESPFirmwareVersion": "0.8.2",
   "greenhouseESPFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-v0.8.2/esp32/firmware.bin",
   "greenhouseESPFirmwareFileMd5": "c47dafc4d1119b9bb66b408b986244ea",
-  
   "greenhouseCoControllerFirmwareVersion": "0.0.1",
   "greenhouseCoControllerFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-v0.4.0/co-controller/firmware.hex",
   "greenhouseCoControllerFirmwareFileMd5": "f019c87cad9d1b0ad45b4619628bfdec",
-
   "greenhouseValveControllerFirmwareVersion": "0.0.1",
   "greenhouseValveControllerFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-v0.4.0/valve-controller/firmware.hex",
   "greenhouseValveControllerFirmwareFileMd5": "f019c87cad9d1b0ad45b4619628bfdec"
