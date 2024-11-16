@@ -1,0 +1,1 @@
+This folder contains the Firmware file for the Onboard IO-Controller on the IOT greenhouse mainboard
