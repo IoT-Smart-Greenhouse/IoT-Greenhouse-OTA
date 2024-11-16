@@ -59,9 +59,9 @@
   "greenhouseESPFirmwareVersion": "0.10.6",
   "greenhouseESPFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-NEXTGEN-v0.10.6/esp32/firmware.bin",
   "greenhouseESPFirmwareFileMd5": "5ae5b5ec7ae6e3ec287505e210b9b34a",
-  "greenhouseCoControllerFirmwareVersion": "0.0.1",
-  "greenhouseCoControllerFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-v0.4.0/co-controller/firmware.hex",
-  "greenhouseCoControllerFirmwareFileMd5": "f019c87cad9d1b0ad45b4619628bfdec",
+  "greenhouseIoControllerFirmwareVersion": "0.0.1",
+  "greenhouseIoControllerFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/ESP-v0.4.0/io-controller/firmware.hex",
+  "greenhouseIoControllerFirmwareFileMd5": "f019c87cad9d1b0ad45b4619628bfdec",
   "greenhouseValveControllerFirmwareVersion": "0.1.3",
   "greenhouseValveControllerFirmwareFileURL": "https://raw.githubusercontent.com/IoT-Smart-Greenhouse/IoT-Greenhouse-OTA/VALVECONTROLLER-NEXTGEN-v0.1.3/valve-controller/firmware.hex",
   "greenhouseValveControllerFirmwareFileMd5": "ca175ac6ac4450f32cdb83928652cc98"
